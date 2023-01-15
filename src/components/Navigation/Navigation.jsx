@@ -1,5 +1,5 @@
 import { IconContext } from 'react-icons';
-import { RiMovie2Fill } from 'react-icons/ri';
+// import { RiMovie2Fill } from 'react-icons/ri';
 import { CgMenuGridR } from 'react-icons/cg';
 import { useState } from 'react';
 import {
@@ -31,12 +31,12 @@ export const Navigation = () => {
           </li>
         </NavList>
         <Logo to="/">
-          MyMovie
-          <IconContext.Provider value={{ size: 30, color: '#99a9ff' }}>
+          film-o-film
+          {/* <IconContext.Provider value={{ size: 30, color: '#99a9ff' }}>
             <RiMovie2Fill />
-          </IconContext.Provider>
+          </IconContext.Provider> */}
         </Logo>
-        <NavLinks to="/stars">Movie stars</NavLinks>
+        {/* <NavLinks to="/stars">Stars</NavLinks> */}
         <MobileMenuButton onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
           <IconContext.Provider value={{ size: 30, color: '#99a9ff' }}>
             <CgMenuGridR />

@@ -8,7 +8,7 @@ export const List = styled.ul`
 `;
 
 export const Card = styled.li`
-  background-color: #232526;
+  background-color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

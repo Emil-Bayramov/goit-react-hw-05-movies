@@ -22,7 +22,7 @@ export const Layout = () => {
         </Section>
       </main>
       <Footer>
-        <FooterText>@ mymovie, 2022. Powered by anvomm. </FooterText>
+        <FooterText>Made by me. 2023 </FooterText>
       </Footer>
     </>
   );

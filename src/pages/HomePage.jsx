@@ -31,7 +31,7 @@ const HomePage = () => {
   return (
     trendingMovies && (
       <>
-        <Heading text={'Trending today'} />
+        <Heading text={'trending Now'} />
         {isLoading && <Loader />}
         <MoviesCardsList movies={trendingMovies} />
       </>
